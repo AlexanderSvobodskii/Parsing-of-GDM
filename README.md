@@ -1,1 +1,1 @@
-This repository include parser of .inc file of GDM-model
+This repository contains parser of .inc file of GDM-model
