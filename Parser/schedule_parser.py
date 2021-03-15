@@ -124,6 +124,8 @@ def edit_schedule(clean_file_list: list, keywords: tuple):
 def extract_keyword_blocks(clean_file_list: list):
     # extracting of keyword blocks from .inc-file and preparing information to writing to csv-file
     
+    #TODO: я бы побил в будущем на более короткие функции - через месяц тебе будет тяжело и читать, и тестировать этот код
+    
     for i in range(len(clean_file_list)):
         if (clean_file_list[i] == 'COMPDAT\n'):
             j = i+1
